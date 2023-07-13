@@ -1,8 +1,8 @@
 #include<iostream>
 
 int main(){
-    int a,b;
-    std::cin>>a>>b;
-    std::cout<<"PROD = "<<a*b<<std::endl;
+    int a,b,c,d;
+    std::cin>>a>>b>>c>>d;
+    std::cout<<"DIFERENCA = "<<(a*b-c*d)<<std::endl;
     return 0;
 }

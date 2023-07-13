@@ -1,8 +1,12 @@
 #include<iostream>
+#include<iomanip>
 
 int main(){
     int a,b;
-    std::cin>>a>>b;
-    std::cout<<"PROD = "<<a*b<<std::endl;
+    double salary;
+    std::cin>>a>>b>>salary;
+    std::cout<<"NUMBER = "<<a<<std::endl;
+    std::cout<<std::fixed<<std::setprecision(2);
+    std::cout<<"SALARY = U$ "<<b*salary<<std::endl;
     return 0;
 }
